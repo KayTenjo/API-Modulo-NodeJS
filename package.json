@@ -1,0 +1,31 @@
+{
+  "name": "api-guante-haptics",
+  "version": "0.1.0",
+  "description": "API de guante haptics escrita como módulo para NodeJS",
+  "main": "glove.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KayTenjo/API-Modulo-NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "haptics",
+    "arduino",
+    "serial"
+  ],
+  "author": "Rodrigo Monsalve Lagos <rodrigo.monsalve.lagos@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KayTenjo/API-Modulo-NodeJS/issues"
+  },
+  "homepage": "https://github.com/KayTenjo/API-Modulo-NodeJS#readme",
+  "dependencies": {
+    "serialport": "^2.0.6"
+  }
+}
