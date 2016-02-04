@@ -5,10 +5,9 @@ var util = require('util');
 
 
 function Communication() {
-
 	
 	this.serialPort;
-	
+
 }	
 
 Communication.prototype = new events.EventEmitter;
@@ -24,7 +23,7 @@ Communication.prototype.openPort = function(portName, baudRate) {
 
 Communication.prototype.getPortNames = function() {
     
-	this.serialPort.list(function (err, ports) {
+	serialPortConstructor.list(function (err, ports) {
 
 		var portNames = [];
 		if (!err) {
